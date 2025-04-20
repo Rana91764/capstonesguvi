@@ -14,7 +14,7 @@ pipeline {
            }
        }
  
- Stage ('execute permission to scripts'){
+ stage ('execute permission to scripts'){
     steps{
         sh '''
         chmod +x build.sh

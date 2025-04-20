@@ -1,4 +1,4 @@
 FROM nginx:alpine
-COPY build /usr/share/ngnix/html
+COPY build /usr/share/nginx/html
 EXPOSE 80
-CMD ["ngnix", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
